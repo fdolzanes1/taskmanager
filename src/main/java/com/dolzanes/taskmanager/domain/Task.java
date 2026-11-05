@@ -4,6 +4,11 @@ import java.util.Optional;
 
 import org.springframework.util.Assert;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter 
+@Setter 
 public class Task {
   private TaskId id;
   private String title;
